@@ -53,6 +53,7 @@ namespace Tuan4_ThaiHuuDang_1911066045.Controllers
         }
         private int TongSoLuongSanPham()
         {
+            //aaaa
             int tsl = 0;
             List<GioHang> lstGiohang = Session["GioHang"] as List<GioHang>;
             if (lstGiohang != null)
